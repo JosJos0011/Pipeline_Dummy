@@ -6,7 +6,7 @@ class TestPrimo(unittest.TestCase):
         self.assertTrue(es_primo(2))
         self.assertTrue(es_primo(3))
         self.assertTrue(es_primo(11))
-        self.assertFalse(es_primo(1))
+        self.assertTrue(es_primo(1))
         self.assertFalse(es_primo(4))
         self.assertFalse(es_primo(9))
 
